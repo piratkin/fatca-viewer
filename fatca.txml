@@ -1,0 +1,75 @@
+﻿<?xml version="1.0"?>
+<ftc:FATCA_OECD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oecd:ties:fatca:v1" xmlns:ftc="urn:oecd:ties:fatca:v1" xmlns:iso="urn:oecd:ties:isofatcatypes:v1" xmlns:sfa="urn:oecd:ties:stffatcatypes:v1" version="1.1">
+	<ftc:MessageSpec>
+		<sfa:SendingCompanyIN>000000.00000.TA.124</sfa:SendingCompanyIN>
+		<sfa:TransmittingCountry>CA</sfa:TransmittingCountry>
+		<sfa:ReceivingCountry>US</sfa:ReceivingCountry>
+		<sfa:MessageType>FATCA</sfa:MessageType>
+		<sfa:Warning/>
+		<sfa:Contact/>
+		<sfa:MessageRefId>62751f04-3eda-1e3b-5f07-35c76b8d6013</sfa:MessageRefId>
+		<sfa:ReportingPeriod>2014-12-31</sfa:ReportingPeriod>
+		<sfa:Timestamp>2015-09-11T9:12:25</sfa:Timestamp>
+	</ftc:MessageSpec>
+	<ftc:FATCA>
+		<ftc:ReportingFI>
+			<sfa:ResCountryCode>CA</sfa:ResCountryCode>
+			<sfa:TIN issuedBy="US">123456789</sfa:TIN>
+			<sfa:Name>Org Name</sfa:Name>
+			<sfa:Address>
+				<sfa:CountryCode>US</sfa:CountryCode>
+				<sfa:AddressFix>
+					<sfa:Street>123 Street</sfa:Street>
+					<sfa:BuildingIdentifier/>
+					<sfa:SuiteIdentifier/>
+					<sfa:FloorIdentifier/>
+					<sfa:DistrictName/>
+					<sfa:POB/>
+					<sfa:PostCode>75244</sfa:PostCode>
+					<sfa:City>City</sfa:City>
+					<sfa:CountrySubentity>US</sfa:CountrySubentity>
+				</sfa:AddressFix>
+			</sfa:Address>
+			<ftc:DocSpec>
+				<ftc:DocTypeIndic>FATCA11</ftc:DocTypeIndic>
+				<ftc:DocRefId>Ref ID123</ftc:DocRefId>
+				<ftc:CorrMessageRefId/>
+				<ftc:CorrDocRefId/>
+			</ftc:DocSpec>
+		</ftc:ReportingFI>
+		<ftc:ReportingGroup>
+			<ftc:AccountReport>
+				<ftc:DocSpec>
+					<ftc:DocTypeIndic>FATCA11</ftc:DocTypeIndic>
+					<ftc:DocRefId>Ref ID234</ftc:DocRefId>
+					<ftc:CorrMessageRefId/>
+					<ftc:CorrDocRefId/>
+				</ftc:DocSpec>
+				<ftc:AccountNumber>ABCD12345</ftc:AccountNumber>
+				<ftc:AccountHolder>
+					<ftc:Organisation>
+						<sfa:ResCountryCode>CA</sfa:ResCountryCode>
+						<sfa:TIN issuedBy="US">123456789</sfa:TIN>
+						<sfa:Name></sfa:Name>
+						<sfa:Address>
+							<sfa:CountryCode>US</sfa:CountryCode>
+							<sfa:AddressFix>
+								<sfa:Street>234 Street</sfa:Street>
+								<sfa:BuildingIdentifier/>
+								<sfa:SuiteIdentifier/>
+								<sfa:FloorIdentifier/>
+								<sfa:DistrictName/>
+								<sfa:POB/>
+								<sfa:PostCode>75244</sfa:PostCode>
+								<sfa:City>City</sfa:City>
+								<sfa:CountrySubentity>US</sfa:CountrySubentity>
+							</sfa:AddressFix>
+						</sfa:Address>
+					</ftc:Organisation>
+					<ftc:AcctHolderType>FATCAxxx</ftc:AcctHolderType>
+				</ftc:AccountHolder>
+				<ftc:AccountBalance currCode="USD">1000.00</ftc:AccountBalance>
+			</ftc:AccountReport>
+		</ftc:ReportingGroup>
+	</ftc:FATCA>
+</ftc:FATCA_OECD>

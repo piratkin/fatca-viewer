@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml>
+	<List>
+		<Node name="SendingCompanyIN">
+			<Title>SendingCompanyIN*</Title>
+			<Desc>Идентификационный номер финансового учреждения-отправителя</Desc>
+			<Link>ftc:FATCA_OECD,ftc:MessageSpec,sfa:SendingCompanyIN</Link>
+		</Node>
+		<Node name="TransmittingCountry">
+			<Title>TransmittingCountry*</Title>
+			<Desc>Код страны отправителя информации</Desc>
+			<Link>ftc:FATCA_OECD,ftc:MessageSpec,sfa:TransmittingCountry</Link>
+		</Node>
+		<Node name="ReceivingCountry">
+			<Title>ReceivingCountry*</Title>
+			<Desc>Код страны назначения информации</Desc>
+			<Link>ftc:FATCA_OECD,ftc:MessageSpec,sfa:ReceivingCountry</Link>
+		</Node>
+		<Node name="MessageRefId">
+			<Title>MessageRefId*</Title>
+			<Desc>MessageRefId</Desc>
+			<Link>ftc:FATCA_OECD,ftc:MessageSpec,sfa:MessageRefId</Link>
+		</Node>
+		<Node name="ReportingPeriod">
+			<Title>ReportingPeriod*</Title>
+			<Desc>Отчетный год</Desc>
+			<Link>ftc:FATCA_OECD,ftc:MessageSpec,sfa:ReportingPeriod</Link>
+		</Node>
+		<Node name="Timestamp">
+			<Title>Timestamp*</Title>
+			<Desc>Дата и время формирования</Desc>
+			<Link>ftc:FATCA_OECD,ftc:MessageSpec,sfa:Timestamp</Link>
+		</Node>
+		<Node name="ResCountryCode">
+			<Title>ResCountryCode*</Title>
+			<Desc>Код страны финансовой организации</Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingFI,sfa:ResCountryCode</Link>
+		</Node>
+		<Node name="TIN">
+			<Title>TIN*</Title>
+			<Desc>Идентификационный код финансовой организации</Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingFI,sfa:TIN</Link>
+		</Node>
+		<Node name="issuedBy">
+			<Title>issuedBy*</Title>
+			<Desc></Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingFI,sfa:TIN</Link>
+			<Attribute>issuedBy</Attribute>
+		</Node>
+		<Node name="Name">
+			<Title>Name*</Title>
+			<Desc>Название финансовой организации</Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingFI,sfa:Name</Link>
+		</Node>
+		<Node name="CountryCode">
+			<Title>CountryCode*</Title>
+			<Desc>Код страны финансовой организации</Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingFI,sfa:Address,sfa:CountryCode</Link>
+		</Node>
+		<Node name="Street">
+			<Title>Street*</Title>
+			<Desc>Адресс</Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingFI,sfa:Address,sfa:AddressFix,sfa:Street</Link>
+		</Node>
+		<Node name="BuildingIdentifier">
+			<Title>BuildingIdentifier</Title>
+			<Desc>Идентификатор сооружения</Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingFI,sfa:Address,sfa:AddressFix,sfa:BuildingIdentifier</Link>
+		</Node>
+		<Node name="SuiteIdentifier">
+			<Title>SuiteIdentifier</Title>
+			<Desc></Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingFI,sfa:Address,sfa:AddressFix,sfa:SuiteIdentifier</Link>
+		</Node>
+		<Node name="FloorIdentifier">
+			<Title>FloorIdentifier</Title>
+			<Desc>Этаж</Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingFI,sfa:Address,sfa:AddressFix,sfa:FloorIdentifier</Link>
+		</Node>
+		<Node name="DistrictName">
+			<Title>DistrictName</Title>
+			<Desc>Район</Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingFI,sfa:Address,sfa:AddressFix,sfa:DistrictName</Link>
+		</Node>
+		<Node name="POB">
+			<Title>POB</Title>
+			<Desc></Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingFI,sfa:Address,sfa:AddressFix,sfa:POB</Link>
+		</Node>
+		<Node name="PostCode">
+			<Title>PostCode*</Title>
+			<Desc>Почтовый индекс</Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingFI,sfa:Address,sfa:AddressFix,sfa:PostCode</Link>
+		</Node>
+		<Node name="City">
+			<Title>City*</Title>
+			<Desc>Город</Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingFI,sfa:Address,sfa:AddressFix,sfa:City</Link>
+		</Node>
+		<Node name="CountrySubentity">
+			<Title>CountrySubentity*</Title>
+			<Desc></Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingFI,sfa:Address,sfa:AddressFix,sfa:CountrySubentity</Link>
+		</Node>
+		<Node name="DocTypeIndic">
+			<Title>DocTypeIndic*</Title>
+			<Desc></Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingFI,ftc:DocSpec,ftc:DocTypeIndic</Link>
+		</Node>
+		<Node name="DocRefId">
+			<Title>DocRefId*</Title>
+			<Desc></Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingFI,ftc:DocSpec,ftc:DocRefId</Link>
+		</Node>
+		<Node name="CorrMessageRefId">
+			<Title>CorrMessageRefId</Title>
+			<Desc></Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingFI,ftc:DocSpec,ftc:CorrMessageRefId</Link>
+		</Node>
+		<Node name="CorrDocRefId">
+			<Title>CorrDocRefId</Title>
+			<Desc></Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingFI,ftc:DocSpec,ftc:CorrDocRefId</Link>
+		</Node>
+		<Node name="DocTypeIndic">
+			<Title>DocTypeIndic*</Title>
+			<Desc></Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingGroup,ftc:AccountReport,ftc:DocSpec,ftc:DocTypeIndic</Link>
+		</Node>
+		<Node name="DocRefId">
+			<Title>DocRefId*</Title>
+			<Desc></Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingGroup,ftc:AccountReport,ftc:DocSpec,ftc:DocRefId</Link>
+		</Node>
+		<Node name="CorrMessageRefId">
+			<Title>CorrMessageRefId</Title>
+			<Desc></Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingGroup,ftc:AccountReport,ftc:DocSpec,ftc:CorrMessageRefId</Link>
+		</Node>
+		<Node name="CorrDocRefId">
+			<Title>CorrDocRefId</Title>
+			<Desc></Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingGroup,ftc:AccountReport,ftc:DocSpec,ftc:CorrDocRefId</Link>
+		</Node>
+		<Node name="AccountNumber">
+			<Title>AccountNumber*</Title>
+			<Desc></Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingGroup,ftc:AccountReport,ftc:AccountNumber</Link>
+		</Node>
+		<Node name="ResCountryCode">
+			<Title>ResCountryCode*</Title>
+			<Desc></Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingGroup,ftc:AccountReport,ftc:AccountHolder,ftc:Organisation,sfa:ResCountryCode</Link>
+		</Node>
+		<Node name="TIN">
+			<Title>TIN*</Title>
+			<Desc></Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingGroup,ftc:AccountReport,ftc:AccountHolder,ftc:Organisation,sfa:TIN</Link>
+		</Node>
+		<Node name="issuedBy">
+			<Title>issuedBy*</Title>
+			<Desc>Идентификационный код финансовой организации</Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingGroup,ftc:AccountReport,ftc:AccountHolder,ftc:Organisation,sfa:TIN</Link>
+			<Attribute>issuedBy</Attribute>
+		</Node>
+		<Node name="Name">
+			<Title>Name*</Title>
+			<Desc></Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingGroup,ftc:AccountReport,ftc:AccountHolder,ftc:Organisation,sfa:Name</Link>
+		</Node>
+		<Node name="CountryCode">
+			<Title>CountryCode*</Title>
+			<Desc></Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingGroup,ftc:AccountReport,ftc:AccountHolder,ftc:Organisation,sfa:Address,sfa:CountryCode</Link>
+		</Node>
+		<Node name="Street">
+			<Title>Street*</Title>
+			<Desc></Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingGroup,ftc:AccountReport,ftc:AccountHolder,ftc:Organisation,sfa:Address,sfa:AddressFix,sfa:Street</Link>
+		</Node>
+		<Node name="BuildingIdentifier">
+			<Title>BuildingIdentifier</Title>
+			<Desc></Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingGroup,ftc:AccountReport,ftc:AccountHolder,ftc:Organisation,sfa:Address,sfa:AddressFix,sfa:BuildingIdentifier</Link>
+		</Node>
+		<Node name="SuiteIdentifier">
+			<Title>SuiteIdentifier</Title>
+			<Desc></Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingGroup,ftc:AccountReport,ftc:AccountHolder,ftc:Organisation,sfa:Address,sfa:AddressFix,sfa:SuiteIdentifier</Link>
+		</Node>
+		<Node name="FloorIdentifier">
+			<Title>FloorIdentifier</Title>
+			<Desc></Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingGroup,ftc:AccountReport,ftc:AccountHolder,ftc:Organisation,sfa:Address,sfa:AddressFix,sfa:FloorIdentifier</Link>
+		</Node>
+		<Node name="DistrictName">
+			<Title>DistrictName</Title>
+			<Desc></Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingGroup,ftc:AccountReport,ftc:AccountHolder,ftc:Organisation,sfa:Address,sfa:AddressFix,sfa:DistrictName</Link>
+		</Node>
+		<Node name="POB">
+			<Title>POB</Title>
+			<Desc></Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingGroup,ftc:AccountReport,ftc:AccountHolder,ftc:Organisation,sfa:Address,sfa:AddressFix,sfa:POB</Link>
+		</Node>
+		<Node name="PostCode">
+			<Title>PostCode*</Title>
+			<Desc></Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingGroup,ftc:AccountReport,ftc:AccountHolder,ftc:Organisation,sfa:Address,sfa:AddressFix,sfa:PostCode</Link>
+		</Node>
+		<Node name="City">
+			<Title>City*</Title>
+			<Desc></Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingGroup,ftc:AccountReport,ftc:AccountHolder,ftc:Organisation,sfa:Address,sfa:AddressFix,sfa:City</Link>
+		</Node>
+		<Node name="CountrySubentity">
+			<Title>CountrySubentity*</Title>
+			<Desc></Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingGroup,ftc:AccountReport,ftc:AccountHolder,ftc:Organisation,sfa:Address,sfa:AddressFix,sfa:CountrySubentity</Link>
+		</Node>
+		<Node name="AcctHolderType">
+			<Title>AcctHolderType*</Title>
+			<Desc></Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingGroup,ftc:AccountReport,ftc:AccountHolder,ftc:AcctHolderType</Link>
+		</Node>
+		<Node name="AccountBalance">
+			<Title>AccountBalance*</Title>
+			<Desc></Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingGroup,ftc:AccountReport,ftc:AccountBalance</Link>
+		</Node>
+		<Node name="currCode">
+			<Title>currCode*</Title>
+			<Desc>Идентификационный код финансовой организации</Desc>
+			<Link>ftc:FATCA_OECD,ftc:FATCA,ftc:ReportingGroup,ftc:AccountReport,ftc:AccountBalance</Link>
+			<Attribute>currCode</Attribute>
+		</Node>
+	</List>
+	<Meta>
+		<Node name="FATCAEntitySenderId">
+			<Title>FATCAEntitySenderId*</Title>
+			<Desc>GIIN отправителя</Desc>
+			<Link>FATCAEntitySenderId</Link>
+		</Node>
+		<Node name="FATCAEntityReceiverId">
+			<Title>FATCAEntityReceiverId*</Title>
+			<Desc>GIIN получателя</Desc>
+			<Link>FATCAEntityReceiverId</Link>
+		</Node>
+		<Node name="FATCAEntCommunicationTypeCd">
+			<Title>FATCAEntCommunicationTypeCd*</Title>
+			<Desc>Тип взаимодействия</Desc>
+			<Link>FATCAEntCommunicationTypeCd</Link>
+		</Node>
+		<Node name="SenderFileId">
+			<Title>SenderFileId*</Title>
+			<Desc>Имя файла с отчетом</Desc>
+			<Link>SenderFileId</Link>
+		</Node>
+		<Node name="FileCreateTs">
+			<Title>FileCreateTs**</Title>
+			<Desc>Дата и время формирования</Desc>
+			<Link>FileCreateTs</Link>
+		</Node>
+		<Node name="TaxYear">
+			<Title>TaxYear*</Title>
+			<Desc>TaxYear</Desc>
+			<Link>TaxYear</Link>
+		</Node>
+		<Node name="FileRevisionInd">
+			<Title>FileRevisionInd*</Title>
+			<Desc>FileRevisionInd</Desc>
+			<Link>FileRevisionInd</Link>
+		</Node>
+		<Node name="OriginalIDESTransmissionId">
+			<Title>OriginalIDESTransmissionId*</Title>
+			<Desc>ID передачи по IDEST</Desc>
+			<Link>OriginalIDESTransmissionId</Link>
+		</Node>
+	</Meta>
+</xml>
